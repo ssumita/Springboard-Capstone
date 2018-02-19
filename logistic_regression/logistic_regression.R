@@ -114,13 +114,13 @@ levels(NH11$everwrk) # check levels of everwrk
 # collapse all missing values to NA
 NH11$everwrk <- factor(NH11$everwrk, levels=c("2 No", "1 Yes"))
 
-str(NH11$bmi)
-levels(NH11$sex)
-
 # run our regression model
 ewrk.out <- glm(everwrk~age_p+r_maritl,
                data=NH11, family="binomial",na.action=na.omit)
 coef(summary(ewrk.out))
+
+##   One solution is to transform the coefficients to make them easier to
+##   interpret
 
 ewrk.out.tab <- coef(summary(ewrk.out))
 ewrk.out.tab[, "Estimate"] <- exp(coef(ewrk.out))
