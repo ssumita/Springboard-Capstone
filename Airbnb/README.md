@@ -22,9 +22,10 @@ The data consists of user characteristics like language, age, browser, date-of-a
 The following steps highlight the strategy to be adopted for carrying out the analysis for the Capstone project:
 
 ### 1.	Data Wrangling and Cleaning
-o	Deal with missing values: Explore the data to determine if missing values should be discarded or hold significance
-o	Dropping columns that are irrelevant to the analysis
-o	Rearrange and transform dataset for cleaner analysis.
+
++ o	Deal with missing values: Explore the data to determine if missing values should be discarded or hold significance
++ o	Dropping columns that are irrelevant to the analysis
++ o	Rearrange and transform dataset for cleaner analysis.
 
 ### 2.	Exploratory Data Analysis
 o	Perform Regression Analysis to determine factors that most influence the outcome of booking a particular destination
