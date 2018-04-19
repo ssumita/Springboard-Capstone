@@ -19,25 +19,25 @@ The data consists of user characteristics like language, age, browser, date-of-a
 
 ## Approach
 
-The following steps highlight the strategy to be adopted for carrying out the analysis for the Capstone project:
+The following steps highlight the strategy adopted for analysis:
 
 ### 1.	Data Wrangling and Cleaning
 
-+ o	Deal with missing values: Explore the data to determine if missing values should be discarded or hold significance
-+ o	Dropping columns that are irrelevant to the analysis
-+ o	Rearrange and transform dataset for cleaner analysis.
++ Deal with missing values: Explore the data to determine if missing values should be discarded or hold significance
++ Dropping columns that are irrelevant to the analysis
++ Rearrange and transform dataset for cleaner analysis.
 
 ### 2.	Exploratory Data Analysis
-o	Perform Regression Analysis to determine factors that most influence the outcome of booking a particular destination
-o	Identify patterns and correlation between the different variables
-o	Use data visualization for graphical analysis to identify trends and answer questions on the dataset
++ Perform Regression Analysis to determine factors that most influence the outcome of booking a particular destination
++ Identify patterns and correlation between the different variables
++ Use data visualization for graphical analysis to identify trends and answer questions on the dataset
 
 ### 3.	Feature Engineering
-o	The success of all Machine Learning algorithms depends on how the data is presented. The features in the data directly influences the predictive models used and the results achieved.
-o	Identify great features that describe the structures inherent in the data and significantly affect the result
-o	Transform data from a raw state to a state suitable for modelling
++	The success of all Machine Learning algorithms depends on how the data is presented. The features in the data directly influences the predictive models used and the results achieved.
++	Identify great features that describe the structures inherent in the data and significantly affect the result
++	Transform data from a raw state to a state suitable for modelling
 
 ### 4.	Predictive Analysis
-o	Our machine learning approach will be supervised classification machine learning because the datasets are designed for this method since we have access to a training set with the correct outcomes and a test set without outcomes. 
-o	The algorithm that we are going to use have to be fast and not use up a lot of memory since we have a very large amount of data to process. 
-o	We also want multi classification which means that we want to basically find out how probable it is that the user wants to travel to all destinations and not just which destination has the highest probability.
++	The approach will be supervised classification machine learning because the datasets are designed for this method since we have access to a training set with the correct outcomes and a test set without outcomes. 
++	The algorithm that we are going to use have to be fast and not use up a lot of memory since we have a very large amount of data to process. 
++	We also want multi classification which means that we want to basically find out how probable it is that the user wants to travel to all destinations and not just which destination has the highest probability.
