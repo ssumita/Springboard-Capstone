@@ -1,6 +1,6 @@
 # Springboard-Capstone
 
-Problem
+# Problem
 
 Trying to predict in which country a new user on Airbnb, will make his or her first booking. There are 11 potential countries along with a 12th class - NDF (No Destination Found), indicating the user did not make any booking.
 
@@ -8,7 +8,7 @@ New users on Airbnb can book a place to stay in 34,000+ cities across 190+ count
 
 URL -> https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings
 
-Data
+# Data
 
 A list of users along with their demographics, web session records, and some summary statistics are provided by Airbnb. The challenge is to predict which country a new user's first booking destination will be. All the users in this dataset are from the USA.
 URL -> https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/data
@@ -17,7 +17,7 @@ There are 12 possible outcomes of the destination country: 'US', 'FR', 'CA', 'GB
 
 The data consists of user characteristics like language, age, browser, date-of-account-creation, OS, etc. for the train and test users. There is data on the actions taken by users on the website along with the details of the action and duration.
 
-Approach
+# Approach
 
 The following steps highlight the strategy to be adopted for carrying out the analysis for the Capstone project:
 1.	Data Wrangling and Cleaning
